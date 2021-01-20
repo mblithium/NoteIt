@@ -1,6 +1,6 @@
 # NoteIT
 It is a browser extension built using HTML, CSS and Javascipt. It is used for note taking with saving and opening facilities.
-Once it is opened you can switch from tab to tab without minimizing yout browser tab.
+Once it is opened you can switch from tab to tab without minimizing your browser tab.
 
 
 
