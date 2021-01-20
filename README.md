@@ -17,7 +17,6 @@ git  clone  https://github.com/fluffyP4nd4/NoteIt.git
 To run this extension on your browser click the links and follow the given steps
 
 ### Chrome, FireFox,Opera,IE, Safari
-(https://www.computerhope.com/issues/ch001888.htm)
 
 
 
