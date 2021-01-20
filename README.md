@@ -4,7 +4,7 @@ Once it is opened you can switch from tab to tab without minimizing yout browser
 
 
 
-![NoteIt](/img/img.png)
+![NoteIt](https://github.com/fluffyP4nd4/NoteIt/blob/main/noteit.png)
 
 ## Installation
 
