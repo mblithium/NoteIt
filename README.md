@@ -15,55 +15,13 @@ git  clone  https://github.com/fluffyP4nd4/NoteIt.git
 
 To run this extension on your browser click the links and follow the given steps
 
-### Chrome, FireFox,Opera,IE, Safari
+## Chrome, FireFox,Opera,IE, Safari
 
-### Contribution
+### Firefox
 
-The following code was added:
+1. Open Firefox and type 
+  about:debugging page
+2. Click "This Firefox" (in newer versions of Firefox)
+3. Click "Load Temporary Add-on"
+4. Then select any file in your extension's directory.
 
-- Clear fields button:
-
-```html
-<tr>
-	<td><button id="clean">Clean</button></td>
-</tr>
-```
-
-```javascript
-//Clean fields
-var btn3 = document.getElementById("clean");
-btn3.addEventListener("click", () => {
-	cleanFields();
-});
-```
-
-- Clear fields when saving a file:
-
-```javascript
-//Function Clean fields
-function cleanFields() {
-	document.querySelector("#text").value = "";
-	document.getElementById("fileLoad").value = [];
-	document.getElementById("flname").value = "";
-}
-```
-
-- Validate that filename field is not empty when saving:
-
-```javascript
-//Check that the file name field is not empty
-if (fileName === "") {
-	alert("You must upload a name for the file");
-	return;
-}
-```
-
-- Validate that a file is selected when the open button is clicked:
-
-```javascript
-//valid if I select the file
-if (!fileToRead) {
-	alert("You must select a file to open it");
-	return;
-}
-```
