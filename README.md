@@ -16,7 +16,16 @@ git  clone  https://github.com/fluffyP4nd4/NoteIt.git
 
 To run this extension on your browser click the links and follow the given steps
 
-### Chrome, FireFox,Opera,IE, Safari
+## Chrome, FireFox,Opera,IE, Safari
+
+### Firefox
+
+1. Open Firefox and type 
+```about:debugging page
+```
+2. Click "This Firefox" (in newer versions of Firefox)
+3. Click "Load Temporary Add-on"
+4. Then select any file in your extension's directory.
 
 
 
