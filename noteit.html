@@ -1,6 +1,5 @@
-<!DOCTPE html>
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="noteit.css">
@@ -10,26 +9,18 @@
     <div id="content">
         <textarea rows='10' placeholder="click to enter text" id="text"></textarea>
 
-        <center>
-            <table>
-                <tr>
-                    <td><input type="text" id="flname" placeholder="Enter Filename"></input><button id="save">Save</button></center>
-        </td>
-        </tr>
-        <tr>
-            <td><input type="file" id="fileLoad"></input>
-            </td>
-        </tr>
-        <tr>
-            <td><button id="open">Open</button></td>
-        </tr>
-        <tr>
-            <td><button id="clean">Clean</button></td>
-        </tr>
-        </table>
-        </center>
+        
+        <input type="text" id="flname" placeholder="Enter Filename"></input>
+        <button id="save" class="uiBtn">Save</button>
+        <button id="open" class="uiBtn">Open</button>
+        <button id="clean" class="uiBtn">Clean</button>
+        
+        <label for"fileLoad">
+            <input type="file" id="fileLoad" class="BtnArchive" accept="text/plain, application/json, text/csv"></input>
+        </label>
+        
     </div>
-    <p>Please Save the file Before Closing This Pane</p>
+    <p class="warning">Please Save the file Before Closing This Panel</p>
     <script type="text/javascript" src="noteit.js"></script>
 </body>
 
